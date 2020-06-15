@@ -1,0 +1,75 @@
+<div class="form ml-3">
+    <div class="row mb-2">
+        <input type="file" #fileUpload id="fileUpload" name="fileUpload" accept="text/csv*" />
+        <button mat-button color="warn" (click)="onClick()"> Upload </button>
+    </div>
+    <div class="row ml-2"  *ngIf="processedList">
+       <h4>Processed Records</h4> 
+    </div>
+    <div>
+        <table class="table" *ngIf="processedList">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">User Id</th>
+                    <th scope="col">Badge Id</th>
+                    <th scope="col">Facility Id</th>
+                    <th scope="col">Site Name</th>
+                    <th scope="col">companyName</th>
+                    <th scope="col">Department Id</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Access Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr scope="row" *ngFor="let item of processedList">
+                    <th>{{ item.name }}</th>
+                    <td>{{ item.userId }}</td>
+                    <td>{{ item.badgeId }}</td>
+                    <td>{{ item.facilityId}}</td>
+                    <td>{{ item.siteName }}</td>
+                    <td>{{ item.companyName }}</td>
+                    <td>{{ item.departmentId}}</td>
+                    <td>{{ item.phone }}</td>
+                    <td>{{ item.accessLevel }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="row ml-2"  *ngIf="rejectedList">
+        <h4>Rejected Records</h4> 
+     </div>
+     <div>
+         <table class="table" *ngIf="rejectedList">
+             <thead>
+                 <tr>
+                     <th scope="col">Name</th>
+                     <th scope="col">User Id</th>
+                     <th scope="col">Badge Id</th>
+                     <th scope="col">Facility Id</th>
+                     <th scope="col">Site Name</th>
+                     <th scope="col">companyName</th>
+                     <th scope="col">Department Id</th>
+                     <th scope="col">Phone</th>
+                     <th scope="col">Access Level</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr scope="row" *ngFor="let item of rejectedList">
+                     <th>{{ item.name }}</th>
+                     <td>{{ item.userId }}</td>
+                     <td>{{ item.badgeId }}</td>
+                     <td>{{ item.facilityId}}</td>
+                     <td>{{ item.siteName }}</td>
+                     <td>{{ item.companyName }}</td>
+                     <td>{{ item.departmentId}}</td>
+                     <td>{{ item.phone }}</td>
+                     <td>{{ item.accessLevel }}</td>
+                 </tr>
+             </tbody>
+         </table>
+     </div>
+
+</div>

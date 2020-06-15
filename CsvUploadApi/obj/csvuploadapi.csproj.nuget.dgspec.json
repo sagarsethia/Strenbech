@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DemoApp\\CsvUploadApi\\csvuploadapi.csproj": {}
+    "D:\\DemoApp\\Strenbech\\CsvUploadApi\\csvuploadapi.csproj": {}
   },
   "projects": {
-    "D:\\DemoApp\\CsvUploadApi\\csvuploadapi.csproj": {
+    "D:\\DemoApp\\Strenbech\\CsvUploadApi\\csvuploadapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DemoApp\\CsvUploadApi\\csvuploadapi.csproj",
+        "projectUniqueName": "D:\\DemoApp\\Strenbech\\CsvUploadApi\\csvuploadapi.csproj",
         "projectName": "csvuploadapi",
-        "projectPath": "D:\\DemoApp\\CsvUploadApi\\csvuploadapi.csproj",
+        "projectPath": "D:\\DemoApp\\Strenbech\\CsvUploadApi\\csvuploadapi.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\DemoApp\\CsvUploadApi\\obj\\",
+        "outputPath": "D:\\DemoApp\\Strenbech\\CsvUploadApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
