@@ -1,0 +1,12 @@
+Name,LastName,Id,BadgeId,FacilityId,SiteName
+,sethia,1,101,1
+,sethia,11,101,1
+rajesh,sethia,11,101,1
+sagar,sethia,2,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,4,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,5,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,2,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,7,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,9,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,10,101,1,ABC,xyz,tstdept,9493933,tes
+sagar,sethia,11,101,1,ABC,xyz,tstdept,9493933,tes
